@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* 
+h1{
+  color: #333;
+}
+.Greeting {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.Counter{
+  background-color: #e0f7fa;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 300px;
+  border-radius: 8px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+button{
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #004d40;
+}
+.UserForm {
+  background-color: #fff3e0;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.UserForm input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.SubmittedMessage {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #dcedc8;
+  border-radius: 4px;
+} 
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}*/
+body {
+  background: #f8f9fa;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.btn-primary {
+  border-radius: 50px;
+}
